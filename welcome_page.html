@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="welcome_page.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rebekah Rodrigues' CV</title>
+</head>
+<body>
+   <div id="wrapper">
+    <!-- Wrapper -->
+      <div id="header">
+
+    <div class="bg-image"></div>
+
+    <div class="bg-text">
+      <h1 style="font-family: cursive; letter-spacing: 25px; font-weight: bolder">REBEKAH RODRIGUES</h1>
+      <p style="font-family: cursive">Success is walking from failure to failure with no loss of enthusiasm- Winston Churchill</p>
+    </div>
+
+    <!-- This is the top- navigation bar -->
+    <div class="topnav" id="myTopnav">
+    <a href="http://127.0.0.1:5500/welcome_page.html" class="active">Home</a>
+    <a href="http://127.0.0.1:5500/about_me.html">About Me</a>
+    <a href="http://127.0.0.1:5500/experience.html">Experience</a>
+    <a href="http://127.0.0.1:5500/education.html">Education</a>
+    <div class="search-container"></div>
+    <input type="text" placeholder="Search.." name="search">
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+    </div>
+
+    <script type="text/javascript">
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="about_me.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Rebekah</title>
+</head>
+<body>
+  <div id="wrapper">
+  <!-- Wrapper -->
+    <div id="header">
+
+      <!-- This is the top- navigation bar -->
+      <div class="topnav" id="myTopnav">
+        <a href="http://127.0.0.1:5500/welcome_page.html" >Home</a>
+        <a href="http://127.0.0.1:5500/about_me.html" class="active">About Me</a>
+        <a href="http://127.0.0.1:5500/experience.html">Experience</a>
+        <a href="http://127.0.0.1:5500/education.html">Education</a>
+          <div class="search-container"></div>
+            <input type="text" placeholder="Search.." name="search">
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+    </div>
+
+    <script type="text/javascript">
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+
+    <div class="bg-image"></div>
+
+    <div class="bg-text">
+      <h1 style="font-family: cursive; font-weight: bolder; font-size: 50px;">About me</h1>
+      <p style="font-size: 23px; font-family: courier new;"> 
+        Email: rodriguesrebekah897@gmail.com <br>Phone: +44 07759917160
+      <br>
+      </p>
+
+      <p style="font-size: 23px; font-family: courier new;"> 
+        I am currently a student studying Cyber Security <br>Management at Southampton Solent University
+        <br>from Southampton, England.<br> 
+      </p>
+
+      <img class="img-rebekah" src="Rebekah's picture.png" alt="Rebekah's profile picture"> 
+
+      <p style="font-size: 23px; font-family: courier new;"> 
+          My main interest is computing. Within computing, <br>I love dealing with coding, computer security,
+          <br>networking and learning new programming languages.<br> 
+      </p>
+
+      <p style="font-size: 23px; font-family: courier new;"> 
+        Other than computing, I enjoy swimming, reading, <br>watching my favourite television shows
+      <br>and travelling.<br> 
+      </p>
+    
+      <img class="img-solent" src="solent_logo.png" alt="Solent University's solent_logo">
+      <img class="img-computing" src="computing.jpg" alt="A picture that represents computing">
+      <img class="img-tv" src="tv.jpg" alt="A picture that represents watching television">
+      <img class="img-travelling" src="travelling.jpg" alt="A picture representing travelling">
+      <img class="img-reading" src="reading.jpg" alt="A picture representing reading">
+
+    </div>  
+  </div> 
+  <!-- Wrapper -->
+
+
+</body>
+</html>

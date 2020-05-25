@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="education.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rebekah's Education histroy</title>
+</head>
+<body>
+  <div id="wrapper">
+  <!-- Wrapper -->
+    <div id="header">
+      
+      <!-- This is the top- navigation bar -->
+      <div class="topnav" id="myTopnav">
+        <a href="http://127.0.0.1:5500/welcome_page.html" >Home</a>
+        <a href="http://127.0.0.1:5500/about_me.html" >About Me</a>
+        <a href="http://127.0.0.1:5500/experience.html" >Experience</a>
+        <a href="http://127.0.0.1:5500/education.html" class="active">Education</a>
+          <div class="search-container"></div>
+            <input type="text" placeholder="Search.." name="search">
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+    </div>
+          
+    <script type="text/javascript">
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+
+    <div class="bg-image"></div>
+
+    <div class="bg-text">
+      <h1 style="font-family: cursive; font-weight: bolder; font-size: 50px;">Education</h1>
+      <h2 style="font-family: courier new; font-size: 30px;">Brookfield Community School (2012-2017)</h2>
+      <p style="font-size: 23px; font-family: courier new;"> 
+         6 GCSEs Grade C<br>Including Maths, English Literature and Language
+       <img class="img-brookfield" src="brookfield.png" alt="The school I attended">
+         <br> Double Science, History and IT.<br> 
+      </p>
+      
+     
+      <h3 style="font-family: courier new; font-size: 30px;">Itchen Sixth Form College (2017-2019)</h3>
+      <p style="font-size: 23px; font-family: courier new;"> 
+         IT/Computing CTEC Double Award: D*D*<br>CTEC Single Business: D*
+         <img class="img-itchen" src="itchen.jpg" alt="The sixth form college I attended">
+         <br>
+      </p>
+      
+ 
+      <h4 style="font-family: courier new; font-size: 30px;">Southampton Solent University (2019-Present)</h4>
+      <p style="font-size: 23px; font-family: courier new;"> 
+         Cyber Security Management Year 1<br>
+         <img class="img-solent" src="solent_logo.png" alt="The university i am currently attending">
+         <br>
+      </p>
+    </div>
+  </div> 
+
+</body>
+</html>
